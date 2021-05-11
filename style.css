@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(#B6B6B6, #CACACA);
+}
+.container{
+    width: 600px;
+    height: 300px;
+    background: #C9C9C9;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.container label{
+    width: 100%;
+    height: 20px;
+    background-color: #E5E5E5;
+    display: block;
+    color: #808080;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+.container .logo{
+    width: 150px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.container .logo i{
+    color: #646464;
+    font-size: 6rem;
+}
+.container .logo i:hover{
+    color: #9f9f9f;
+}
+.os{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+select{
+    height: 35px;
+    border: none;
+    background: #E7E5E5;
+
+}
+select option{
+    font-size: 15px;
+    background: #333;
+    color: #808080;
+}
+.input-section input{
+    width: 80px;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 146px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.input-section input:hover{
+    background: #DCDCDC;
+}
+footer{
+    width: 314px;
+    height: 18px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background: #C1C1C1;
+    color: #808080;
+    border-radius: 2px;
+}
+footer a{
+    color: #808080;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
